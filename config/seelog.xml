@@ -1,0 +1,9 @@
+<seelog minlevel="trace">
+    <outputs formatid="common">
+        <rollingfile type="size" filename="/data/logs/gopay/log/logs.log" maxsize="3145728" maxrolls="100">
+        </rollingfile>
+    </outputs>
+    <formats>
+        <format id="common" format="%Date(2006-01-02 15:04:05.999) %LEVEL  [%File] [%Func] %Msg  line:%Line  %n" />
+    </formats>
+</seelog>
